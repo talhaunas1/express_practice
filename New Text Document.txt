@@ -1,0 +1,4 @@
+Node
+npm Express
+npm Joi (validation)
+nodemon
