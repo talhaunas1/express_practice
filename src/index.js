@@ -28,7 +28,7 @@ app.get("/api/movies", (req, res) => {
 });
 
 app.get("/api/movie/:id", (req, res) => {
-  const id = req.params.id;
+  const id = req.params.id;  
   const movie = database.find((item) => item.id === parseInt(id));
   if (!movie) return res.status(404).send("Movie with this id does not found");
 
